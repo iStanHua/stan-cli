@@ -3,7 +3,7 @@
 const program = require('commander')
 const chalk = require('chalk')
 
-const pkg = require('./package.json')
+const pkg = require('../package.json')
 
 const beautifyLib = require('../lib/beautify')
 const createLib = require('../lib/create')
