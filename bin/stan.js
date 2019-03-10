@@ -13,9 +13,10 @@ program
   .option('init', '`stan init` is deprecated, please use `stan f`')
   .option('f', 'js css html format')
   .option('c', 'create a project')
-  .option('f', 'js css html format')
+  .option('format', 'js css html format')
   .option('create', 'create a project')
   .parse(process.argv)
+
 
 if (program.init) {
   console.log(chalk.red('`stan init` is deprecated, please use `stan f`'))
@@ -28,5 +29,3 @@ if (program.format || program.f) {
 // if (program.create || program.c) {
 //   createLib(process.argv)
 // }
-
-if (!program.args.length) return program.help()
