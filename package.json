@@ -19,7 +19,12 @@
   "author": "istanhua",
   "license": "MIT",
   "private": false,
-  "directories": {
-    "lib": "lib"
-  }
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/iStanHua/stan-cli.git"
+  },
+   "bugs": {
+      "url": "https://github.com/iStanHua/stan-cli/issues"
+   },
+   "homepage": "https://github.com/iStanHua/stan-cli#readme"
 }
