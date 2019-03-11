@@ -14,7 +14,7 @@ program
   .usage('[command] [options]')
   .option('-b, --beautify <path>', 'Beautifier for javascript')
   .option('-u, --uglify <path>', 'A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+')
-  .option('-i, --imagemin <path>', 'Minify images seamlessly')
+  .option('-i, --imagemin <path> [options]', 'Minify images seamlessly')
   .parse(process.argv)
 
 if (program.beautify) {
