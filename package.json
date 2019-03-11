@@ -1,6 +1,6 @@
 {
   "name": "stan-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "stan",
   "bin": {
     "stan": "./bin/stan.js"
@@ -15,7 +15,12 @@
     "chalk": "^2.4.2",
     "shell": "^0.5.0",
     "which": "^1.3.1",
-    "uglify-es": "^3.3.9"
+    "uglify-es": "^3.3.9",
+    "imagemin": "^6.1.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "imagemin-webp":"^5.0.0",
+    "imagemin-svgo":"^7.0.0"
   },
   "author": "istanhua",
   "license": "MIT",

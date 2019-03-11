@@ -7,22 +7,33 @@ npm install -g stan-cli
 
 ### beautify
 ```
-stan -b [dirName]
-stan beautify [dirName]
+stan -b <path>
+stan --beautify <path>
 ```
 
 Example:
 ```
-stan -b dist
+stan -b build
 ```
 
 ### uglify
 ```
-stan -u [dirName]
-stan uglify [dirName]
+stan -u <path>
+stan --uglify <path>
 ```
 
 Example:
 ```
-stan -u dist
+stan -u build
+```
+
+### imagemin
+```
+stan -i <path>
+stan --imagemin <path>
+```
+
+Example:
+```
+stan -i build
 ```
