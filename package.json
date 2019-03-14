@@ -1,6 +1,6 @@
 {
   "name": "stan-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "stan",
   "bin": {
     "stan": "./bin/stan.js"
@@ -21,7 +21,8 @@
     "cwebp-bin": "^5.0.0",
     "svgo":"^1.2.0",
     "execa":"^1.0.0",
-    "node-sass":"^4.11.0"
+    "node-sass":"^4.11.0",
+    "potrace":"^2.1.1"
   },
   "author": "istanhua",
   "license": "MIT",
