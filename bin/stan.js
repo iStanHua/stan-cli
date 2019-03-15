@@ -16,7 +16,7 @@ program
   .option('-b, --beautify <dir>', 'Beautifier for javascript')
   .option('-u, --uglify <dir>', 'A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+')
   .option('-i, --imagemin <dir> [type]', 'Minify images seamlessly')
-  .option('-s, --sass <dir> [outExt]', 'Minify images seamlessly')
+  .option('-s, --sass <dir> [outExt]', 'Compile Sass to CSS')
   .option('-p, --potrace <dir>', ' PNG, JPEG or BMP images to SVG')
   .parse(process.argv)
 
