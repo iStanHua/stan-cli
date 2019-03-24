@@ -9,6 +9,7 @@ const uglifyLib = require('../lib/uglify')
 const imageminLib = require('../lib/imagemin')
 const sassLib = require('../lib/sass')
 const potraceLib = require('../lib/potrace')
+const tesseractLib = require('../lib/tesseract')
 
 program
   .version(pkg.version)
@@ -17,7 +18,8 @@ program
   .option('-u, --uglify <dir>', 'A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+')
   .option('-i, --imagemin <dir> [type]', 'Minify images seamlessly')
   .option('-s, --sass <dir> [outExt]', 'Compile Sass to CSS')
-  .option('-p, --potrace <dir>', ' PNG, JPEG or BMP images to SVG')
+  .option('-p, --potrace <dir>', 'PNG, JPEG or BMP images to SVG')
+  .option('-t, --tesseract', 'Tesseract Open Source OCR Engine')
   .parse(process.argv)
 
 if (program.beautify) {
@@ -34,4 +36,7 @@ if (program.sass) {
 }
 if (program.potrace) {
   potraceLib(process.argv)
+}
+if (program.tesseract) {
+  tesseractLib(process.argv)
 }
