@@ -1,6 +1,6 @@
 {
   "name": "stan-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "stan cli",
   "bin": {
     "stan": "./bin/stan.js"
@@ -28,6 +28,11 @@
   "author": "istanhua",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "stan",
+    "cli",
+    "node"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iStanHua/stan-cli.git"
