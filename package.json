@@ -1,29 +1,29 @@
 {
   "name": "stan-cli",
-  "version": "0.2.2",
-  "description": "stan",
+  "version": "0.2.3",
+  "description": "stan cli",
   "bin": {
     "stan": "./bin/stan.js"
   },
   "dependencies": {
-    "commander": "^2.19.0",
+    "commander": "^2.20.0",
     "download-git-repo": "^1.1.0",
     "ejs": "^2.6.1",
-    "ora": "^3.2.0",
-    "inquirer": "^6.2.2",
-    "js-beautify": "^1.8.9",
+    "ora": "^3.4.0",
+    "inquirer": "^6.3.1",
+    "js-beautify": "^1.9.1",
     "chalk": "^2.4.2",
-    "shell": "^0.5.0",
+    "shelljs": "^0.8.3",
     "which": "^1.3.1",
     "uglify-es": "^3.3.9",
     "mozjpeg": "^6.0.1",
     "pngquant-bin": "^5.0.2",
     "cwebp-bin": "^5.0.0",
-    "svgo": "^1.2.0",
+    "svgo": "^1.2.2",
     "execa": "^1.0.0",
     "node-sass": "^4.11.0",
     "potrace": "^2.1.1",
-    "tesseract.js":"^1.0.14"
+    "tesseract.js": "^1.0.14"
   },
   "author": "istanhua",
   "license": "MIT",

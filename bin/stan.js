@@ -10,6 +10,7 @@ const imageminLib = require('../lib/imagemin')
 const sassLib = require('../lib/sass')
 const potraceLib = require('../lib/potrace')
 const tesseractLib = require('../lib/tesseract')
+const updateVersionLib = require('../lib/updateVersion')
 
 program
   .version(pkg.version)
@@ -20,6 +21,7 @@ program
   .option('-s, --sass <dir> [outExt]', 'Compile Sass to CSS')
   .option('-p, --potrace <dir>', 'PNG, JPEG or BMP images to SVG')
   .option('-t, --tesseract', 'Tesseract Open Source OCR Engine')
+  .option('-v, --updateVersion', 'Update dependent package version')
   .parse(process.argv)
 
 if (program.beautify) {
@@ -39,4 +41,7 @@ if (program.potrace) {
 }
 if (program.tesseract) {
   tesseractLib(process.argv)
+}
+if (program.updateVersion) {
+  updateVersionLib(process.argv)
 }
