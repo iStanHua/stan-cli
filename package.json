@@ -1,6 +1,6 @@
 {
   "name": "stan-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "stan cli",
   "bin": {
     "stan": "./bin/stan.js"
@@ -26,7 +26,8 @@
     "tesseract.js": "^1.0.16",
     "package-json": "^6.3.0",
     "rimraf": "^2.6.3",
-    "fluent-ffmpeg": "^2.1.2"
+    "fluent-ffmpeg": "^2.1.2",
+    "terser": "^4.0.0"
   },
   "author": "istanhua",
   "license": "MIT",
