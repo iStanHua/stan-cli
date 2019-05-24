@@ -16,7 +16,7 @@ const ffmpegLib = require('../lib/ffmpeg')
 
 program
   .version(pkg.version)
-  .usage('[command] [options]')
+  .usage('<command> [options]')
   .option('-b, --beautify [dir]', 'Beautifier for javascript')
   .option('-u, --uglify [dir]', 'A JavaScript parser, mangler/compressor and beautifier toolkit for ES6+')
   .option('-o, --terser [dir]', 'JavaScript parser, mangler, optimizer and beautifier toolkit for ES6+')
