@@ -26,6 +26,11 @@ program
   .option('-t, --tesseract', 'Tesseract Open Source OCR Engine')
   .option('-v, --updateVersion', 'Update dependent package version')
   .option('-f, --ffmpeg [inExt] [outExt]', 'ffmpeg')
+  .action((cmd, env) => {
+    if(!env){
+      program.help()
+    }
+  })
   .parse(process.argv)
 
 if (program.beautify) {
